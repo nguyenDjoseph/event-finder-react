@@ -9,9 +9,10 @@ const SearchBar = ({city, onSearchCityChange, onSubmit}) =>
                 <TextInput s={12} m={10} 
                     type="text" value={city} 
                     onChange={onSearchCityChange} 
-                    placeholder="City" />
-                <Col s={12} m={2}>
-                    <Button floating large className="red" icon="search" waves="light" />
+                    placeholder="City"
+                    />
+                <Col xs={12} m={2}>
+                    <Button floating large className="red" icon="send" waves="light" />
                 </Col>
             </form>
         </Row>

@@ -10,5 +10,5 @@ We need to spin up the server and the React application. To spin up the server u
 ``` npm run server ```  
 Then we need to start the React app by using the command (in another instance of the terminal):  
 ``` npm start ```  
-The application should now be running on http://localhost:3000/,  
-Note: Make sure to have a .env file or the app won't work.
+The application should now be running on http://localhost:3000/  
+**Note: Make sure to have a .env file or the app won't work.**

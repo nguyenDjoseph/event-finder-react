@@ -85,15 +85,6 @@ class Weather extends Component {
     const { results } = this.props.weather.daily.data;
     results.map((val, idx) => {
         return (
-
-
-
-
-
-
-
-
-            
         )
     })
   }

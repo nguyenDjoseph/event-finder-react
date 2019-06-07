@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node-env-run server.js"
+    "server": "NODE_ENV='development' node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"

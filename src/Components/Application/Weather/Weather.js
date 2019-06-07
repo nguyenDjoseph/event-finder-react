@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import { Collapsible, CollapsibleItem } from 'react-materialize';
 import Grid from '@material-ui/core/Grid'
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 import withLoader from '../Loader/withLoader';
@@ -10,13 +9,7 @@ import withLoader from '../Loader/withLoader';
 import clearNight from '../../../img/md-weather-iconset/weather-clear-night.png';
 import cloudy from '../../../img/md-weather-iconset/weather-clouds.png';
 import cloudyNight from '../../../img/md-weather-iconset/weather-clouds-night.png';
-import foggy from '../../../img/md-weather-iconset/weather-fog.png';
-import rainyDay from '../../../img/md-weather-iconset/weather-rain-day.png';
-import rainyNight from '../../../img/md-weather-iconset/weather-rain-night.png';
-import snow from '../../../img/md-weather-iconset/weather-snow.png';
-import storm from '../../../img/md-weather-iconset/weather-storm.png';
 import sun from '../../../img/md-weather-iconset/weather-clear.png';
-import wind from '../../../img/md-weather-iconset/weather-wind.png';
 
 class Weather extends Component {
   constructor(props) {
